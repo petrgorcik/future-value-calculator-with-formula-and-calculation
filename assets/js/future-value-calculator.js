@@ -64,7 +64,7 @@ else if(enteredNumber > 999999999){
 	enteredNumber = 99999999900;	
 }
 //convert decimal fotmat to percentage (with sign %) with 4 decimal places
-controlToCheck.value = toPercentFormat(UnformattedNumber);
+controlToCheck.value = toPercentFormat(enteredNumber);
 }
 
 //Used for Number of Periods (n) inserted value. Minimum value is 1, maximum value is 36503.
