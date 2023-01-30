@@ -1,9 +1,9 @@
 /*!
-    *Future Value Calculator v1.0.0
+    *Future Value Calculator v1.0.2
     *Author:       Ing. Petr Gorčík
     *Author URI:   https://www.gorcik.cz
     *GitHub URI:   https://github.com/petrgorcik/future-value-calculator-with-formula-and-calculation/
-    *Version: 	   1.0.0
+    *Version: 	   1.0.2
     *License:      GNU General Public License v3
     *License URI:  http://www.gnu.org/licenses/gpl-3.0.html
     *Link to calculator: https://gorcik.cz/calculators/investing/future-value-calculator-with-formula-and-calculation/
@@ -63,7 +63,7 @@ if(enteredNumber == 0){
 else if(enteredNumber > 999999999){
 	enteredNumber = 99999999900;	
 }
-//convert decimal fotmat to percentage (with sign %) with 4 decimal places
+//convert decimal format to percentage (with sign %) with 4 decimal places
 controlToCheck.value = toPercentFormat(enteredNumber);
 }
 
@@ -109,7 +109,7 @@ PMT = Number(PMT.replace(/[^0-9.-]+/g,""));
 // Change data types to string.
 var nStr = String(n);
 var StartingAmountStr = String(StartingAmount);
-var rStr = String(r);
+var rStr = String(r.toFixed(6));
 var PMTStr = String(PMT);
 
 // result Future Value 

@@ -5,7 +5,7 @@ Future Value Calculator With Formula and Calculation - WordPress page template
 Author:       Ing. Petr Gorčík
 Author URI:   https://www.gorcik.cz
 GitHub URI:   https://github.com/petrgorcik/future-value-calculator-with-formula-and-calculation/
-Version: 	    1.0.0
+Version: 	    1.0.2
 License:      GNU General Public License v3
 License URI:  http://www.gnu.org/licenses/gpl-3.0.html
 Link to calculator: https://gorcik.cz/calculators/investing/future-value-calculator-with-formula-and-calculation/
@@ -16,7 +16,7 @@ calculation of Future Value with formula. If you set this code as WordPress page
 Thank you for leaving a reference to me as defined in the license when you use my code.
 
 == Copyright ==
-Future Value Calculator With Formula and Calculation, Copyright 2022, Ing. Petr Gorčík
+Future Value Calculator With Formula and Calculation, Copyright 2022, 2023 Ing. Petr Gorčík
 Future Value Calculator With Formula and Calculation use the following third-party resources:
 
 third-party bootstrap
@@ -25,6 +25,13 @@ Source: https://getbootstrap.com
 Bootstrap files are not included, you are supposed to download it or create link to template work properly.
 
 == Changelog ==
+
+= 1.0.2 =
+* Released: January 30, 2023. Rounding of the percentages shown to the user in decimal format to 6 decimal places 
+in Future Value Formula with Values.
+
+= 1.0.1 =
+* Released: January 18, 2023. Show interest rate with % sign to the user.
 
 = 1.0.0 =
 * Released: December 21, 2022
