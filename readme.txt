@@ -5,7 +5,7 @@ Future Value Calculator With Formula and Calculation - WordPress page template
 Author:       Ing. Petr Gorčík
 Author URI:   https://www.gorcik.cz
 GitHub URI:   https://github.com/petrgorcik/future-value-calculator-with-formula-and-calculation/
-Version: 	    1.0.2
+Version: 	    1.1.0
 License:      GNU General Public License v3
 License URI:  http://www.gnu.org/licenses/gpl-3.0.html
 Link to calculator: https://gorcik.cz/calculators/investing/future-value-calculator-with-formula-and-calculation/
@@ -19,12 +19,21 @@ Thank you for leaving a reference to me as defined in the license when you use m
 Future Value Calculator With Formula and Calculation, Copyright 2022, 2023 Ing. Petr Gorčík
 Future Value Calculator With Formula and Calculation use the following third-party resources:
 
-third-party bootstrap
+third-party Bootstrap  v5.2.3 
 License: link to license is included in bootstrap files
 Source: https://getbootstrap.com 
-Bootstrap files are not included, you are supposed to download it or create link to template work properly.
+Bootstrap files are NOT INCLUDED in GitHub repository, you are supposed to download it or create link to template work properly.
+
+third-party Plotly.js v2.18.1
+License: MIT license, link to license is included in plotly files
+Info: https://plotly.com/javascript/
+Source: https://registry.npmjs.org/plotly.js-dist-min/-/plotly.js-dist-min-2.18.1.tgz
+Plotly.js files are NOT INCLUDED in GitHub repository, you are supposed to download it or create link to template work properly.
 
 == Changelog ==
+
+= 1.1.0 =
+* Released: February 15, 2023. FV Schedule table, FV stacked column chart, FV donut chart. Code refactoring. 
 
 = 1.0.2 =
 * Released: January 30, 2023. Rounding of the percentages shown to the user in decimal format to 6 decimal places 
