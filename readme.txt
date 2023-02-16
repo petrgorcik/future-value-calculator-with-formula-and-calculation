@@ -5,7 +5,7 @@ Future Value Calculator With Formula and Calculation - WordPress page template
 Author:       Ing. Petr Gorčík
 Author URI:   https://www.gorcik.cz
 GitHub URI:   https://github.com/petrgorcik/future-value-calculator-with-formula-and-calculation/
-Version: 	    1.1.0
+Version: 	    1.1.1
 License:      GNU General Public License v3
 License URI:  http://www.gnu.org/licenses/gpl-3.0.html
 Link to calculator: https://gorcik.cz/calculators/investing/future-value-calculator-with-formula-and-calculation/
@@ -31,6 +31,9 @@ Source: https://registry.npmjs.org/plotly.js-dist-min/-/plotly.js-dist-min-2.18.
 Plotly.js files are NOT INCLUDED in GitHub repository, you are supposed to download it or create link to template work properly.
 
 == Changelog ==
+
+= 1.1.1 = 
+* Released: February 16, 2023. Column chart swipe.
 
 = 1.1.0 =
 * Released: February 15, 2023. FV Schedule table, FV stacked column chart, FV donut chart. Code refactoring. 
