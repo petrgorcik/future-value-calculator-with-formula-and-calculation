@@ -1,9 +1,9 @@
 /*!
-    *Future Value Calculator v1.1.1
+    *Future Value Calculator v1.1.2
     *Author:       Ing. Petr Gorčík
     *Author URI:   https://www.gorcik.cz
     *GitHub URI:   https://github.com/petrgorcik/future-value-calculator-with-formula-and-calculation/
-    *Version: 	   1.1.1
+    *Version: 	   1.1.2
     *License:      GNU General Public License v3
     *License URI:  http://www.gnu.org/licenses/gpl-3.0.html
     *Link to calculator: https://gorcik.cz/calculators/investing/future-value-calculator-with-formula-and-calculation/

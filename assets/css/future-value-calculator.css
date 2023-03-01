@@ -1,17 +1,246 @@
 /*
-Future Value Calculator v1.1.1
+Future Value Calculator v1.1.2
 Author:       Ing. Petr Gorčík
 Author URI:   https://www.gorcik.cz
 GitHub URI:   https://github.com/petrgorcik/future-value-calculator-with-formula-and-calculation/
-Version: 	  1.1.1
+Version: 	  1.1.2
 License:      GNU General Public License v3
 License URI:  http://www.gnu.org/licenses/gpl-3.0.html
 Link to calculator: https://gorcik.cz/calculators/investing/future-value-calculator-with-formula-and-calculation/
 */
 
-.maxWidthFormFVC {
-    width: 45%;
-    border-radius: 0;
+
+
+#form-future-value-calculator{
+margin-bottom: 20px;	
+}
+
+.input-group-prepend {
+width : 60%;
+}
+
+.input-group-append {
+  width : 100%; 
+}
+
+.input-group-text {
+font-size: 90%;
+}
+
+.form-control.rounded-0{
+font-size: 90%;
+}
+
+.form-select.rounded-0{
+font-size: 90%;
+}
+
+#FutureValueCalcutorCalculateButton{
+font-size: 90%;		
+}
+
+#ResultFV{
+font-size: 90%;		
+}
+
+#FVtable{
+font-size: 90%;			
+}
+
+#GitHubFV{
+font-size: 90%;				
+}
+
+#FVtablePrevButton{
+font-size: 90%;			
+}
+
+#FVtableNextButton{
+font-size: 90%;			
+}
+
+#FVtableName{
+font-size: 90%;			
+}
+
+td {
+font-size: 90%;
+}
+
+th {
+font-size: 90%;
+}
+
+
+@media screen and (max-width: 281px) {
+
+.input-group-prepend {
+width : 60%;
+}
+.input-group-text {
+font-size: 50%;
+}
+
+.form-control.rounded-0{
+font-size: 50%;
+}
+
+.form-select.rounded-0{
+font-size: 50%;
+}
+
+#FutureValueCalcutorCalculateButton{
+font-size: 50%;		
+}
+
+#ResultFV{
+font-size: 50%;		
+}
+
+#GitHubFV{
+font-size: 50%;			
+}
+
+#FVtablePrevButton{
+font-size: 50%;			
+}
+
+#FVtableNextButton{
+font-size: 50%;			
+}
+
+#FVtableName{
+font-size: 50%;			
+}
+
+#FVtable{
+font-size: 50%;			
+}
+
+td {
+font-size: 50%;
+}
+
+th{
+font-size: 50%;
+}
+
+
+}
+
+
+
+@media screen and (max-width: 414px) {
+
+.input-group-prepend {
+width : 60%;
+}
+.input-group-text {
+font-size: 60%;
+}
+
+.form-control.rounded-0{
+font-size: 60%;
+}
+
+.form-select.rounded-0{
+font-size: 60%;
+}
+
+#FutureValueCalcutorCalculateButton{
+font-size: 60%;		
+}
+
+#ResultFV{
+font-size: 60%;		
+}
+
+
+
+#GitHubFV{
+font-size: 60%;			
+}
+
+#FVtablePrevButton{
+font-size: 60%;			
+}
+
+#FVtableNextButton{
+font-size: 60%;			
+}
+
+#FVtableName{
+font-size: 60%;			
+}
+
+#FVtable{
+font-size: 60%;			
+}
+
+td {
+font-size: 60%;
+}
+
+th{
+font-size: 60%;
+}
+
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+.input-group-text {
+font-size: 80%;
+}
+
+.form-control.rounded-0{
+font-size: 80%;
+}
+
+.form-select.rounded-0{
+font-size: 80%;
+}
+
+#FutureValueCalcutorCalculateButton{
+font-size: 80%;		
+}
+
+#ResultFV{
+font-size: 80%;		
+}
+
+
+#GitHubFV{
+font-size: 80%;			
+}
+
+#FVtablePrevButton{
+font-size: 80%;			
+}
+
+#FVtableNextButton{
+font-size: 80%;			
+}
+
+#FVtableName{
+font-size: 80%;			
+}
+
+#FVtable{
+font-size: 80%;			
+}
+
+td {
+font-size: 80%;
+}
+
+th{
+font-size: 80%;
+}
+
+
 }
 
 .redAsterix
@@ -32,14 +261,25 @@ Link to calculator: https://gorcik.cz/calculators/investing/future-value-calcula
 table {
   font-family: Arial, serif;
   border-collapse:collapse;
+  max-width: 100%;
 }
 
-th, td {
+td {
   border:1px solid #ccc;
-  padding: 8px;
+  padding: 1px;  
+}
+
+th {
+  border:1px solid #ccc;
+  padding: 3px;
 }
 
 
-#FVtablePrevButton, #FVtableNextButton{
+#FVtablePrevButton, #FVtableNextButton {
 	margin: 4px;
+}
+
+
+#FVcalculatorContainer { 
+font-size: 100%;
 }
